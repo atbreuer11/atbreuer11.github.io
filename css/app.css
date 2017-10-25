@@ -19,6 +19,12 @@ body {
   top: 62%;
 }
 
+@media screen and (max-width: 39.9375em) {
+  .name {
+    font-size: 3rem;
+  }
+}
+
 .divider {
   border-bottom: 1px solid #1976D2;
   margin-bottom: 20px;
@@ -76,6 +82,15 @@ body {
     margin: 16px;
   }
 }
+
+@media screen and (max-width: 39.9375em) {
+  .content-panel {
+    margin: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
 
 h5 {
   font-weight: 500;
