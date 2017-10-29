@@ -3,6 +3,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  outline: 0;
+}
+
+.mdl-dialog {
+  width: 350px;
+  position: fixed;
+}
+
+.mdl-button {
+  border-radius: 2px;
+  color: #1c99e9;
+}
+
 .sidebar {
   color: #FFF;
 }
