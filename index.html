@@ -45,6 +45,8 @@
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
 
+        <!-- Side Panel -->
+
         <div class="sidebar medium-4 large-3 cell mdl-color--primary mdl-shadow--2dp">
           <div class="image-container">
             <img class="crop-circle" src="img/me.png" alt="" width="100%">
@@ -58,8 +60,8 @@
             </div>
 
             <div class="small-10 large-9 cell divider">
-              <p>University of Colorado Boulder</p>
-              <p class="subtext">Boulder, CO</p>
+              <p class="with-subtext">IT Manager, Dermal Photonics</p>
+              <p class="subtext">Boston, MA</p>
               <p></p>
             </div>
 
@@ -82,10 +84,6 @@
               <p class="with-subtext">atbreuer11@gmail.com</p>
               <p class="subtext">personal</p>
               <p></p>
-
-              <p class="with-subtext">aaron.breuer@colorado.edu</p>
-              <p class="subtext">school</p>
-              <p></p>
             </div>
 
             <div class="small-2 large-3 cell">
@@ -100,21 +98,31 @@
               </p>
               <p>
                 Android - Java
-                <input class="mdl-slider mdl-js-slider" id="8" onchange="resetSlider(this)" type="range" min="0" max="10" value="9" step="1">
+                <input class="mdl-slider mdl-js-slider" id="9" onchange="resetSlider(this)" type="range" min="0" max="10" value="9" step="1">
+              </p>
+              <p>
+                SQL
+                <input class="mdl-slider mdl-js-slider" id="8" onchange="resetSlider(this)" type="range" min="0" max="10" value="8" step="1">
               </p>
               <p>
                 Javascript
-                <input class="mdl-slider mdl-js-slider" id="7" onchange="resetSlider(this)" type="range" min="0" max="10" value="8" step="1">
+                <input class="mdl-slider mdl-js-slider" id="8" onchange="resetSlider(this)" type="range" min="0" max="10" value="8" step="1">
               </p>
               <p>
                 HTML & CSS
-                <input class="mdl-slider mdl-js-slider" id="7" onchange="resetSlider(this)" type="range" min="0" max="10" value="8" step="1">
+                <input class="mdl-slider mdl-js-slider" id="8" onchange="resetSlider(this)" type="range" min="0" max="10" value="8" step="1">
+              </p>
+              <p>
+                PHP
+                <input class="mdl-slider mdl-js-slider" id="6" onchange="resetSlider(this)" type="range" min="0" max="10" value="6" step="1">
               </p>
             </div>
           </div>
         </div>
 
         <div class="medium-8 large-9 cell">
+
+          <!-- Work Experience -->
 
           <div class="content-panel mdl-shadow--2dp">
             <div class="grid-x">
@@ -126,22 +134,42 @@
 
                 <div class="entry">
                   <div class="entry">
-                    <h6>Freelance Mobile Development</h6>
-                    <p class="date">2017 - Current</p>
-                    <p>As a supplement to being a college student, I take on jobs from various clients who need apps made. These are often simple projects, but many delve into new and interesting aspects of each platform. This is quite different from developers who are only exposed to the aspects of the platform that are used by their teams. </p>
+                    <h6>Dermal Photonics</h6>
+                    <p class="date">2019 - Current</p>
+                    <p>In the role of IT Manager, I headed the company's entire stack of technologies.</p>
+                    <ul>
+                      <li>Managed an AWS Cloud infrastructure consisting of multiple servers and databases</li>
+                      <li>Managed a PHP backend for interacting with the databases</li>
+                      <li>Managed a Shopify website</li>
+                      <li>Worked on both Objective-C and Swift mobile applications</li>
+                    </ul>
                   </div>
 
-                  <h6>Veracross Software Contract Developer</h6>
-                  <p class="date">2012 - 2018</p>
-                  <p>I have worked on many projects including
-                    developing an <a href="https://play.google.com/store/apps/details?id=com.breuerandcompany.directory&hl=en">android app</a>,
-                    working on numerous IOS apps, and building a completely <a href="https://www.veracross.com">refreshed website</a>. This work experience
-                    has continued to develop my skills in programming, as I can now work comfortably in multiple programming languages.
+                  <div class="entry">
+                    <h6>Contract Development</h6>
+                    <p class="date">2018 - Current</p>
+                    <p>I began working as a contract developer while I was a student in college.</p>
+                    <ul>
+                      <li>Updated the Android app I had initially developed as an intern at Veracross</li>
+                      <li>Developed iOS applications in Swift</li>
+                    </ul>
+                  </div>
+
+                  <h6>Veracross</h6>
+                  <p class="date">2013 - 2018</p>
+                  <p>As a software devlopment intern, I was exposed to an array of different technologies.
                    </p>
+                   <ul>
+                     <li>Ported an iOS app to Android (<a href="https://play.google.com/store/apps/details?id=com.breuerandcompany.vcdirectory" target="_blank">VC Directory</a>)</li>
+                     <li>Ground up development of <a href="https://www.veracross.com" target="_blank">veracross.com</a></li>
+                     <li>Ruby on Rails development</li>
+                   </ul>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- Education -->
 
           <div class="content-panel mdl-shadow--2dp">
             <div class="grid-x">
@@ -153,82 +181,75 @@
 
                 <div class="entry">
                   <h6>University of Colorado Boulder</h6>
-                  <p class="date">2017 - Current</p>
-                  <p>I am currently enrolled as a full time student at CU Boulder pursing a double Major of Computer Science and Biochemistry with a minor in Neuroscience.</p>
+                  <p class="date">2018 - 2018</p>
+                  <p>As a student at CU Boulder, I pursued a major in Biochemistry.</p>
                 </div>
                 <div class="entry">
                   <h6>Masconomet HS</h6>
-                  <p class="date">2014 - 2017</p>
-                  <p>I graduated from Masconomet Regional Highschool with honors, and a GPA of 3.8. I followed their computer science course through softmore year, at which point I started working for Veracross as a paid independant developer. It is hard to take a course whose final is on Inheritance when you have an app written in that very language on the app store.</p>
+                  <p class="date">2014 - 2018</p>
+                  <p>I graduated from Masconomet Regional Highschool with honors, and a GPA of 3.8.</p>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- Community Service -->
 
           <div class="content-panel mdl-shadow--2dp">
             <div class="grid-x">
               <div class="medium-1 cell">
                 <i class="material-icons md-36">public</i>
               </div>
+
               <div class="medium-11 cell">
                 <h5>Community Service</h5>
+              </div>
 
-                <div class="entry">
-                  <h6>Accord Food Pantry</h6>
-                  <p class="date">2016 - Current</p>
-                </div>
+              <div class="medium-3 medium-offset-1 cell entry">
+                <h6>Accord Food Pantry</h6>
+                <p class="date">2016 - 2018</p>
+              </div>
 
-                <div class="entry">
-                  <h6>Youth Ultimate Frisbee</h6>
-                  <p class="date">2016 - Current</p>
-                </div>
+              <div class="medium-3 medium-offset-1 cell entry">
+                <h6>Youth Ultimate Frisbee</h6>
+                <p class="date">2016 - 2018</p>
+              </div>
 
-                <div class="entry">
-                  <h6>Software Project for Prisoners</h6>
-                  <p class="date">2016 - 2017</p>
-                </div>
-                <div class="entry">
-                  <h6>Relay for Life</h6>
-                  <p class="date">2015</p>
-                </div>
+              <div class="medium-3 medium-offset-1 cell entry">
+                <h6>Software Project for Prisoners</h6>
+                <p class="date">2016 - 2017</p>
               </div>
             </div>
           </div>
 
+          <!-- Sports & Hobbies -->
+
           <div class="content-panel mdl-shadow--2dp">
-                      <div class="grid-x">
-                        <div class="medium-1 cell">
-                          <i class="material-icons md-36">wb_sunny</i>
-                        </div>
-                        <div class="medium-11 cell">
-                          <h5>Sports and Hobbies</h5>
-                        </div>
-                        <div class="medium-3 medium-offset-1 cell entry">
-                          <h6>Ultimate Frisbee</h6>
-                          <p class="date">2015 - Current</p>
-                        </div>
-                        <div class="medium-3 medium-offset-1 cell entry">
-                          <h6>High School Soccer</h6>
-                          <p class="date">2014 - 2015</p>
-                        </div>
-                        <div class="medium-3 medium-offset-1 cell entry">
-                          <h6>Indoor Soccer</h6>
-                          <p class="date">2014 - Current</p>
-                        </div>
-                        <div class="medium-3 medium-offset-1 cell entry">
-                          <h6>Ski Team</h6>
-                          <p class="date">2016 - 2017</p>
-                        </div>
-                        <div class="medium-3 medium-offset-1 cell entry">
-                          <h6>Mountain Biking</h6>
-                          <p class="date">2014 - Current</p>
-                        </div>
-                        <div class="medium-3 medium-offset-1 cell entry">
-                          <h6>Automotive Repair</h6>
-                          <p class="date">2016 - Current</p>
-                        </div>
-                      </div>
-                    </div>
+            <div class="grid-x">
+              <div class="medium-1 cell">
+                <i class="material-icons md-36">wb_sunny</i>
+              </div>
+
+              <div class="medium-11 cell">
+                <h5>Sports and Hobbies</h5>
+              </div>
+
+              <div class="medium-3 medium-offset-1 cell entry">
+                <h6>Ultimate Frisbee</h6>
+                <p class="date">2015 - 2018</p>
+              </div>
+
+              <div class="medium-3 medium-offset-1 cell entry">
+                <h6>Soccer</h6>
+                <p class="date">2005 - 2015</p>
+              </div>
+
+              <div class="medium-3 medium-offset-1 cell entry">
+                <h6>Mountain Biking</h6>
+                <p class="date">2014 - Current</p>
+              </div>
+            </div>
+          </div>
 
         </div>
 
