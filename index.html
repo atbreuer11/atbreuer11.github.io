@@ -256,18 +256,24 @@
       </div>
     </div>
 
-    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
     <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCaIJ8j8Q0lTkLjczeFIPv5H-3KCla-cjI",
-        authDomain: "github-page-3251f.firebaseapp.com",
-        databaseURL: "https://github-page-3251f.firebaseio.com",
-        projectId: "github-page-3251f",
-        storageBucket: "",
-        messagingSenderId: "730210772222"
+      // Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCS5RTsNkh5sV5UNEjtSrfKMiaqnVxffzc",
+        authDomain: "atbreuer11-bddb0.firebaseapp.com",
+        databaseURL: "https://atbreuer11-bddb0.firebaseio.com",
+        projectId: "atbreuer11-bddb0",
+        storageBucket: "atbreuer11-bddb0.appspot.com",
+        messagingSenderId: "1015274550199",
+        appId: "1:1015274550199:web:4825de278a19ce84452e32",
+        measurementId: "G-VFP107V0DB"
       };
-      firebase.initializeApp(config);
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
     </script>
 
     <script src="js/vendor/jquery.js"></script>
