@@ -1,4 +1,9 @@
-h1,h2,h3,h4,h5,h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -6,6 +11,11 @@ body {
 a {
   outline: 0;
   border-bottom: 1px solid #1779ba;
+}
+
+hr {
+  border-bottom: 1px solid #1779ba;
+  margin: 24px 0;
 }
 
 .mdl-dialog {
@@ -19,19 +29,16 @@ a {
 }
 
 .sidebar {
-  color: #FFF;
-}
-
-.image-container {
-  text-align: center;
-  margin-bottom: -38px;
+  padding: 24px !important;
+  color: #fff;
 }
 
 .name {
-  font-size: 1.75rem;
+  margin-bottom: 24px;
+  font-size: 3.75rem;
   width: 100%;
-  text-align: center;
   z-index: 1;
+  line-height: 1.1;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -41,17 +48,19 @@ a {
 
   .image-container {
     text-align: center;
-    margin: 12%;
+    margin: 12%
     margin-bottom: -40px;
   }
 }
 
 .divider {
-  border-bottom: 1px solid #1976D2;
+  border-bottom: 1px solid #1976d2;
   margin-bottom: 20px;
 }
 
 .with-subtext {
+  font-weight: 400;
+  color: #fff;
   margin: 0;
 }
 
@@ -62,7 +71,6 @@ a {
 
 .crop-circle {
   border-radius: 50%;
-  margin-top: 20px;
   padding: 0 12px;
   z-index: 0;
 }
@@ -73,30 +81,29 @@ a {
   margin: 0;
 }
 
-
 .mdl-slider:active::-webkit-slider-thumb,
 .mdl-slider::-webkit-slider-thumb {
-    background: #FFF !important;
+  background: #fff !important;
 }
 
 .mdl-slider:active::-moz-range-thumb,
 .mdl-slider::-moz-range-thumb {
-    background: #FFF !important;
+  background: # !important;
 }
 
 .mdl-slider:active::-ms-thumb,
 .mdl-slider::-ms-thumb {
-    background: #FFF !important;
+  background: #fff !important;
 }
 
 .mdl-slider__background-lower {
-  background: #FFF !important;
+  background: #fff !important;
 }
 
 .content-panel {
   background-color: #fff;
-  margin: 32px;
-  padding: 16px;
+  margin: 16px;
+  padding: 16px 24px 12px;
 }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -113,14 +120,13 @@ a {
   }
 }
 
-
 h5 {
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 .entry {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .entry h6,
@@ -138,16 +144,6 @@ h5 {
 
 .blue {
   color: rgb(28, 153, 233);
-}
-
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  .material-icons.md-36 { font-size: 24px; }
-
 }
 
 .link {
