@@ -8,6 +8,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  font-size: 15px;
+}
+
 a {
   outline: 0;
   border-bottom: 1px solid #1779ba;
@@ -102,8 +106,8 @@ hr {
 
 .content-panel {
   background-color: #fff;
-  margin: 16px;
-  padding: 16px 24px 12px;
+  margin: 24px 12px 24px;
+  padding: 24px 28px 16px;
 }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
