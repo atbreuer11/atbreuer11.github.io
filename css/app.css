@@ -34,7 +34,7 @@ hr {
 
 .sidebar {
   padding: 24px !important;
-  color: #fff;
+  color: white;
 }
 
 .name {
@@ -52,7 +52,7 @@ hr {
 
   .image-container {
     text-align: center;
-    margin: 12%
+    margin: 12%;
     margin-bottom: -40px;
   }
 }
@@ -64,7 +64,7 @@ hr {
 
 .with-subtext {
   font-weight: 400;
-  color: #fff;
+  color: white;
   margin: 0;
 }
 
@@ -87,25 +87,25 @@ hr {
 
 .mdl-slider:active::-webkit-slider-thumb,
 .mdl-slider::-webkit-slider-thumb {
-  background: #fff !important;
+  background: white !important;
 }
 
 .mdl-slider:active::-moz-range-thumb,
 .mdl-slider::-moz-range-thumb {
-  background: # !important;
+  background: white !important;
 }
 
 .mdl-slider:active::-ms-thumb,
 .mdl-slider::-ms-thumb {
-  background: #fff !important;
+  background: white !important;
 }
 
 .mdl-slider__background-lower {
-  background: #fff !important;
+  background: white !important;
 }
 
 .content-panel {
-  background-color: #fff;
+  background-color: white;
   margin: 24px 12px 24px;
   padding: 24px 28px 16px;
 }
