@@ -22,11 +22,6 @@ hr {
   margin: 24px 0;
 }
 
-.mdl-dialog {
-  width: 350px;
-  position: fixed;
-}
-
 .mdl-button {
   border-radius: 2px;
   color: #1c99e9;
@@ -110,6 +105,10 @@ hr {
   padding: 24px 28px 16px;
 }
 
+.content-panel:first-child {
+  position: relative;
+}
+
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .content-panel {
     margin: 16px;
@@ -152,4 +151,19 @@ h5 {
 
 .link {
   display: inline;
+}
+
+#view-online {
+  display: none;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 6px 8px;
+  background-color: rgb(3, 169, 244);
+  border-radius: 8px;
+  color: #fff;
+}
+
+#view-online a {
+  color: #fff;
 }
