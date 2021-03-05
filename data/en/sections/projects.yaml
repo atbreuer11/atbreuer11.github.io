@@ -1,0 +1,61 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
+
+projects:
+- name: VC Directory
+  logo: /images/sections/projects/vcdirectory.png
+  role: Developer
+  timeline: "2014 - 2019"
+  url: https://play.google.com/store/apps/details?id=com.breuerandcompany.vcdirectory
+  summary: A directly style app I developed as an intern at veracross. The app follows the material design system, and all data is all driven from a simple internal API. One cool feature is an embedded Google Maps integration.
+  tags: ["Android"]
+
+- name: veracross.com
+  logo: /images/sections/projects/veracross-com.png
+  role: Developer
+  timeline: "2017 - 2018"
+  url: https://web.archive.org/web/20201101012057/http://www.veracross.com/
+  summary: A fully functional, CMS driven website I created while at veracross. Though recently replaced, the site served as the public facing veracross.com for several years.
+  tags: ["Web"]
+
+- name: Opa
+  logo: /images/sections/projects/opa.png
+  role: Contributor
+  timeline: "2018 - 2020"
+  url: "https://apps.apple.com/us/app/opa-be-everywhere/id1462353272"
+  summary: Working as a freelance developer, I wrote the chat module for Opa using SocketIO.
+  tags: ["iOS"]
+
+- name: Nocode
+  logo: /images/sections/projects/no-code.png
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/kelseyhightower/nocode
+  #url: ""
+  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  tags: ["hobby", "fun"]
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
