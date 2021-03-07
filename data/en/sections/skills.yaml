@@ -12,12 +12,12 @@ skills:
 
 - name: Swift
   logo: /images/sections/skills/swift.svg
-  summary: "Capable of writing iOS applications"
+  summary: "Proficient in developing iOS applications in Swift, with some exposure to Objective C as well."
   url: "https://swift.org"
 
 - name: PHP
   logo: /images/sections/skills/php.svg
-  summary: "Currently using as the main language for backend development."
+  summary: "Currently using as the main language for backend development. Have used Lumen for APIs."
   url: "https://www.php.net"
 
 - name: JavaScript
@@ -27,17 +27,17 @@ skills:
 
 - name: AWS
   logo: /images/sections/skills/aws.svg
-  summary: "Familiar with EC2, RDS, Lambda"
+  summary: "Wide ranging experience with AWS Cloud infrastructure, including EC2 instances, RDS, S3, Lambda, SQS, SNS, and others."
   url: "https://aws.amazon.com"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Have used with both GitHub and Bitbucket."
+  summary: "Familiar with git-based development. Have used with both GitHub and Bitbucket."
   url: "https://git-scm.com/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Comfortable building and consuming docker images."
+  summary: "Comfortable building and consuming simple docker images."
   url: "https://www.docker.com/"
 
 - name: Serverless
