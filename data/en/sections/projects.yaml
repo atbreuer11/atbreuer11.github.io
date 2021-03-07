@@ -4,19 +4,6 @@ section:
   enable: true
   weight: 5
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
-
-# filter buttons
-# buttons:
-# - name: All
-#   filter: "all"
-# - name: Professional
-#   filter: "professional"
-# - name: Academic
-#   filter: "academic"
-# - name: Hobby
-#   filter: "hobby"
 
 projects:
 - name: VC Directory

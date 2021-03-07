@@ -1,4 +1,3 @@
-# section information
 section:
   name: About
   id: about
@@ -7,17 +6,12 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
 designation: Software Engineer
 
-# your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "resume.pdf"
 
-# a summary about you
 summary: 'I have over 6 years of experience developing across the full stack. Whether launching a website, writing a mobile app, deploying an API, or designing a database, I strive to minimize technical debt through clean architecture and ample pedantry.'
 
-# your social links
-# give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
@@ -31,9 +25,6 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://linkedin.com/in/atbreuer11"
 
-# your soft skills
-# give the percentage between 50 to 100 with 5 intervals.
-# currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
 - name: Web
   percentage: 85
