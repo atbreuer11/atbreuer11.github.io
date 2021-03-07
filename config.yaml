@@ -18,7 +18,7 @@ markup:
 
 params:
   gitRepo: 'https://github.com/atbreuer11/atbreuer11.github.io'
-  gitBranch: master
+  gitBranch: main
   enableTOC: true
   background: images/haleakala.png
   logo:
