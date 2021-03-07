@@ -19,7 +19,7 @@ projects:
   role: Developer
   timeline: "2017 - 2018"
   url: https://web.archive.org/web/20201101012057/http://www.veracross.com/
-  summary: A fully functional, CMS driven website I created while at veracross. Though recently replaced, the site served as the public facing veracross.com for several years.
+  summary: A website I built from the design stage leveraging Craft CMS. Though recently replaced, the site served as the public facing veracross.com for several years.
   tags: ["Web"]
 
 - name: Opa
