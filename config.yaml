@@ -1,6 +1,6 @@
 baseURL: 'https://atbreuer11.github.io'
 languageCode: en-us
-title: My Portfolio
+title: atbreuer11.github.io
 theme: toha
 
 enableEmoji: true
@@ -21,3 +21,7 @@ params:
   gitBranch: master
   enableTOC: true
   background: images/haleakala.png
+  logo:
+    main: images/logo.png
+    inverted: images/logo.png
+    # favicon: /images/site/favicon.png
