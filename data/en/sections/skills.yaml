@@ -44,3 +44,8 @@ skills:
   logo: /images/sections/skills/serverless.png
   summary: "Experienced with using the serverless framework to deploy to AWS Lambda"
   url: "https://www.serverless.com"
+
+- name: Shopify
+  logo: /images/sections/skills/shopify.png
+  summary: "Proficent in shopify development, SEO, and integrating with both apps and internal systems."
+  url: "https://www.shopify.com"
