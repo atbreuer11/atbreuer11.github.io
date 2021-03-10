@@ -45,3 +45,10 @@ projects:
   repo: https://github.com/brefphp/extra-php-extensions
   summary: Bref is a project that simplifies running PHP applications on serverless. To enable the NIRA Temp API to leverage bref, I added support for the SQL Server extensions. The extensions and required ODBC drivers are provided via a docker image.
   tags: ["Docker","PHP"]
+
+- name: Basic Interpreter
+  role: Developer
+  timeline: "February 2021 - Present"
+  repo: https://github.com/atbreuer11/basic-interpreter/
+  summary: A basic interpreter written in JavaScript to learn about how language interpretation works.
+  tags: ["JavaScript"]
