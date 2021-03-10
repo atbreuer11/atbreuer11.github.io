@@ -50,5 +50,5 @@ projects:
   role: Developer
   timeline: "February 2021 - Present"
   repo: https://github.com/atbreuer11/basic-interpreter/
-  summary: A basic interpreter written in JavaScript to learn about how language interpretation works.
+  summary: A basic interpreter written in JavaScript I created to learn about how language interpretation works.
   tags: ["JavaScript"]
