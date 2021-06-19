@@ -6,6 +6,11 @@ section:
   showOnNavbar: true
 
 skills:
+- name: AWS
+  logo: /images/sections/skills/aws.svg
+  summary: "Wide ranging experience with AWS Cloud infrastructure, including EC2 instances, RDS, S3, Lambda, SQS, SNS, and others."
+  url: "https://aws.amazon.com"
+
 - name: SQL
   logo: /images/sections/skills/sql.png
   summary: "Efficent at designing, improving, and maintaining relational databases. Currently using mostly with SQL Server."
@@ -25,10 +30,9 @@ skills:
   summary: "Fluent in vanilla javascript and have some experience with jQuery and React."
   url: "https://www.javascript.com"
 
-- name: AWS
-  logo: /images/sections/skills/aws.svg
-  summary: "Wide ranging experience with AWS Cloud infrastructure, including EC2 instances, RDS, S3, Lambda, SQS, SNS, and others."
-  url: "https://aws.amazon.com"
+- name: Linux
+  logo: /images/sections/skills/linux.svg
+  summary: "Familiar with basic configuration and commands/scripting on Red Hat/CentOS & Amazon Linux"
 
 - name: Git
   logo: /images/sections/skills/git.png
@@ -45,7 +49,7 @@ skills:
   summary: "Experienced with using the serverless framework to deploy to AWS Lambda"
   url: "https://www.serverless.com"
 
-- name: Shopify
-  logo: /images/sections/skills/shopify.png
-  summary: "Proficent in shopify development, SEO, and integrating with both apps and internal systems."
-  url: "https://www.shopify.com"
+# - name: Shopify
+#   logo: /images/sections/skills/shopify.png
+#   summary: "Proficent in shopify development, SEO, and integrating with both apps and internal systems."
+#   url: "https://www.shopify.com"
