@@ -21,7 +21,7 @@ params:
   gitRepo: 'https://github.com/atbreuer11/atbreuer11.github.io'
   gitBranch: main
   enableTOC: true
-  background: images/haleakala.png
+  background: images/hero.png
   logo:
     main: images/logo.png
     inverted: images/logo.png
