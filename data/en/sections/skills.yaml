@@ -32,7 +32,7 @@ skills:
 
 - name: Linux
   logo: /images/sections/skills/linux.svg
-  summary: "Familiar with basic configuration and commands/scripting on Red Hat/CentOS & Amazon Linux"
+  summary: "Familiar with basic configuration and commands/scripting on Red Hat/CentOS, Ubuntu, Amazon Linux"
 
 - name: Git
   logo: /images/sections/skills/git.png
