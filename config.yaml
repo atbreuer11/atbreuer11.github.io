@@ -26,3 +26,5 @@ params:
     main: images/logo.png
     inverted: images/logo.png
     # favicon: /images/site/favicon.png
+  newsletter:
+    enable: false
